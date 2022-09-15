@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Roboto Flex";
+    src: url("fonts/RobotoFlex-Regular");
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: 'Roboto Flex', sans-serif;
+
+}
+
 body {
     display: flex;
     justify-content: space-around;
