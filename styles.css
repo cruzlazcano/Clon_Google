@@ -2,18 +2,152 @@ body {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: 0px;
+
 }
 .menu {
 
     height: 10vh;
     width: 100%;
-    border: 2px solid black;
     display: flex;
     justify-content:end;
     
 }
-a {
+.menu a {
     text-decoration: none;
     margin: 2px;    
     color: black;
+    padding: 5px;
 }
+
+.mnu{
+    padding: 5px;
+    height: 25px;
+
+}
+.mnu:hover{
+    cursor: pointer;
+    background-color: hsla(167, 4%, 57%, 0.219);
+    border-radius: 30px;
+}
+.google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.search{
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsl(120, 1%, 45%);
+    width: 45vw;
+    border-radius: 25px;
+
+}
+.lupa{
+    padding: 5px;
+    margin-right: 20px;
+}
+.search input{
+    width: 40vw;
+    height: 30px;
+    border: transparent;
+    outline: none;
+}
+.search input:active {
+    border: transparent;
+}
+
+
+.botones{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+}
+
+button{
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: transparent;
+}
+
+button:hover{
+    border: 1px solid hsl(120, 1%, 45%);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.anuncio{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 52vh;
+    justify-content: end;
+
+}
+.footer1{
+    background: hsla(0, 9%, 82%, 0.281);
+    width: 100%;
+    color:hsl(160, 1%, 41%);
+    margin: 0;
+    height: 50px;
+    border-bottom: 1px solid hsla(167, 4%, 57%, 0.219);  
+
+}
+.footer1 p{
+    padding: 10px;
+}
+.footer2{
+    background: hsla(0, 9%, 82%, 0.281);
+    width: 100%;
+    color:hsl(160, 1%, 41%);
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+
+}
+
+.informacion a{
+    text-decoration: none;
+    color:hsl(160, 1%, 41%);
+    padding-left: 10px;
+    margin: 5px;
+    
+}
+.informacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.condiciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.condiciones a{
+    text-decoration: none;
+    color:hsl(160, 1%, 41%);
+    padding-right: 10px;
+    margin: 5px;
+
+}
+
+
+
